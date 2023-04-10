@@ -1,1 +1,1 @@
-### [martinhalvorson.com](https://www.martinhalvorson.com)
+### [martinhalvorson.com](http://www.martinhalvorson.com)

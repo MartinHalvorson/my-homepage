@@ -10861,3 +10861,24 @@ textarea.form-control-lg {
   font-size: 24px; /* Adjust the font size as needed */
 }
 
+.text-title-readable {
+  color: #ffffff; /* Keeps text white */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Stronger black shadow for depth */
+  background: rgba(0, 0, 50, 0.2); /* Darker semi-transparent background for better contrast */
+  display: inline-block; /* Block to handle larger text */
+  padding: 10px 15px; /* More padding around the text */
+  border-radius: 5px; /* Rounded corners for the background */
+  font-size: 1.5em; /* Larger text size for the title */
+  font-weight: bold; /* Bold font for the title */
+  margin-top: -5px; /* Adjust as necessary to position the title */
+}
+
+.text-readable {
+  color: #ffffff; /* Keeps text white */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Black shadow for depth */
+  background: rgba(0, 0, 50, 0.1); /* Semi-transparent black background */
+  display: inline; /* Only as wide as the content */
+  padding: 5px 10px; /* Some padding around the text */
+  border-radius: 5px; /* Rounded corners for the background */
+  font-size: 1.05em; /* Slightly larger text */
+}

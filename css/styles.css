@@ -10847,13 +10847,14 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
+  text-decoration: none; /* This will remove the underline */
 }
 
 .social-media-icons a:hover,
 .social-media-icons a:focus {
   color: #007bff; /* or any hover color you prefer */
   background-color: #ffffff; /* or any background hover color you prefer */
-  text-decoration: none;
+  text-decoration: none; /* This will remove the underline */
   transform: scale(1.1); /* Slight increase in size on hover for effect */
 }
 
@@ -10876,7 +10877,7 @@ textarea.form-control-lg {
 .text-readable {
   color: #ffffff; /* Keeps text white */
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Black shadow for depth */
-  background: rgba(0, 0, 50, 0.1); /* Semi-transparent black background */
+  background: rgba(0, 11, 20, 0.5); /* Semi-transparent black background */
   display: inline; /* Only as wide as the content */
   padding: 5px 10px; /* Some padding around the text */
   border-radius: 5px; /* Rounded corners for the background */

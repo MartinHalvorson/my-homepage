@@ -10830,3 +10830,19 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+.social-media-icons {
+  margin-top: 1rem;
+  font-size: 2rem; /* Adjust icon size as needed */
+}
+
+.social-media-icons a {
+  color: #ffffff; /* This is white, set it to the color you want for the icons */
+  margin: 0 10px; /* Spacing between icons */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.social-media-icons a:hover,
+.social-media-icons a:focus {
+  color: #007bff; /* Change to the color you want on hover */
+  text-decoration: none;
+}

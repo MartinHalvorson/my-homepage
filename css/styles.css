@@ -10832,17 +10832,32 @@ textarea.form-control-lg {
 }
 .social-media-icons {
   margin-top: 1rem;
-  font-size: 2rem; /* Adjust icon size as needed */
+  display: flex;
+  justify-content: center;
 }
 
 .social-media-icons a {
-  color: #ffffff; /* This is white, set it to the color you want for the icons */
-  margin: 0 10px; /* Spacing between icons */
-  transition: color 0.3s ease; /* Smooth color transition on hover */
+  color: #ffffff; /* or any color you prefer */
+  background-color: transparent; /* or any background color you prefer */
+  margin: 0 10px;
+  border-radius: 50%;
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
 }
 
 .social-media-icons a:hover,
 .social-media-icons a:focus {
-  color: #007bff; /* Change to the color you want on hover */
+  color: #007bff; /* or any hover color you prefer */
+  background-color: #ffffff; /* or any background hover color you prefer */
   text-decoration: none;
+  transform: scale(1.1); /* Slight increase in size on hover for effect */
 }
+
+.social-media-icons i {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
